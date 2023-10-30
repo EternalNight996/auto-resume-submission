@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "pkief.material-icon-theme",
+    "shd101wyy.markdown-preview-enhanced",
+    "cweijan.vscode-database-client2",
+    "rust-lang.rust-analyzer",
+    "serayuzgur.crates",
+    "tamasfe.even-better-toml",
+    "Casbin.vscode-casbin"
+  ]
+}

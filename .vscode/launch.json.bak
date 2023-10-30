@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "WEB Development Debug",
+            "cargo": {
+                "args": [
+                    "dev",
+                    // "--manifest-path=./tauri/Cargo.toml",
+                    "--no-default-features"
+                ]
+            },
+            "preLaunchTask": "web:dev"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "WEB Production Debug",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--release",
+                    // "--manifest-path=./tauri/Cargo.toml"
+                ]
+            },
+            "preLaunchTask": "web:build"
+        }
+    ]
+}
